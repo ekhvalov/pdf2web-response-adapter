@@ -1,0 +1,56 @@
+{
+  "name": "wp/pdf2web-response-adapter",
+  "type": "package",
+  "license": "MIT",
+  "description": "Response adapter for wp/pdf2web and wp/net",
+  "homepage": "https://github.com/ekhvalov/pdf2web-response-adapter",
+  "authors": [
+    {
+      "name": "Alexander",
+      "email": "sasha@webproducers.ru"
+    },
+    {
+      "name": "Vladimir Ekhvalov",
+      "email": "ekhvalov@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "WP\\Pdf2web\\": "src/"
+    }
+  },
+  "require": {
+    "wp/net": "dev-master",
+    "wp/base": "dev-master",
+    "wp/pdf2web": "dev-master",
+    "wp/recordsman": "dev-master",
+    "wp/csv": "dev-master",
+    "ekhvalov/tar": "dev-master"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "http://github.com/webproducer/net"
+    },
+    {
+      "type": "vcs",
+      "url": "http://github.com/webproducer/base"
+    },
+    {
+      "type": "vcs",
+      "url": "http://github.com/webproducer/pdf2web"
+    },
+    {
+      "type": "vcs",
+      "url": "http://github.com/webproducer/recordsman"
+    },
+    {
+      "type": "vcs",
+      "url": "http://github.com/webproducer/csv"
+    },
+    {
+      "type": "vcs",
+      "url": "http://github.com/ekhvalov/tar"
+    }
+  ]
+}
